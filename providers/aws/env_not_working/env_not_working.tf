@@ -23,6 +23,5 @@ provider "aws" {
 
 module "iam_not_working" {
    source = "../../../modules/iam_not_working"
-   region = "${var.region}"
    role_id = "${aws_iam_role.test_role.id}"
 }

@@ -4,5 +4,4 @@ provider "aws" {
 
 module "iam_working" {
    source = "../../../modules/iam_working"
-   region = "${var.region}"
 }
